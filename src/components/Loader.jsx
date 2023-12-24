@@ -20,7 +20,7 @@ export default function Loader() {
         <div>
           <p className="text-3xl opacity-30 text-white text-right animate-pulse">#X</p>
           <img
-            src={`../../src/assets/whothatpokemon.png`}
+            src={`./whothatpokemon.png`}
             className="w-52 mb-3 mt-8"
           />
         </div>
