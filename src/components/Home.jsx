@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import PokeCard from "./PokeCard";
 import Loader from "./Loader";
 import SearchBar from "./SearchBar";
-import pokemonTypesColors from "../colors";
+import pokemonTypesColors from "../utils/colors";
 import Filter from "./Filter";
 
 export default function Home() {

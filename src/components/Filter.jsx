@@ -1,5 +1,5 @@
 import React from 'react'
-import pokemonTypes from '../pokemonTypes'
+import pokemonTypes from '../utils/pokemonTypes'
 
 export default function Filter( { selectedType, onTypeChange } ) {
   return (
