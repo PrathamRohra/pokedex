@@ -16,7 +16,7 @@ export default function HoverablePokeCard({ name, color, id, types, stats }) {
   return (
     <>
       {isClicked ? (
-        <div onClick={toggleClick} className="">
+        <div onClick={toggleClick} className="hover:cursor-pointer">
           <StatCard name={name} id={id} stats={stats} 
         />
         </div>
@@ -26,7 +26,7 @@ export default function HoverablePokeCard({ name, color, id, types, stats }) {
           style={{
             backgroundImage: `linear-gradient(to bottom right, ${color} , dimgrey`,
           }}
-          className={`h-56 w-96 lg:h-60 rounded-3xl p-4 flex justify-between shadow-2xl mb-10`}
+          className={`h-56 hover:cursor-pointer w-96 lg:h-60 rounded-3xl p-4 flex justify-between shadow-2xl mb-10`}
         >
           <div className="flex flex-col justify-between mb-4">
             <h1 className="mt-4 text-white font-bold text-4xl">{name}</h1>
