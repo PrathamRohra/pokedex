@@ -1,0 +1,12 @@
+* {
+  font-family: 'Inter', sans-serif;
+}
+
+.pokeball{
+  background-image: url('../src/assets/pokeball.jpg');
+  opacity: 0.4;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position-x: right;
+  background-position-y: bottom;
+}
